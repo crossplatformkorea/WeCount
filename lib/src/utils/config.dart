@@ -23,7 +23,7 @@ String env(String key) {
     if (e.message == 'A non-null fallback is required for missing entries') {
       logger.e(
         '$key Key does not exist. '
-        "Make sure that the key exists in the '.env' file.",
+        "Make sure that the key exists in the 'dotenv' file.",
       );
     }
 

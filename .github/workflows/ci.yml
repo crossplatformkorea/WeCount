@@ -38,7 +38,7 @@ jobs:
       - run: flutter --version
 
       - name: COPY ENV
-        run: cp .env.sample .env && cp .env.sample dotenv
+        run: cp .env.sample dotenv
 
       - name: Create firebase_options
         run: |
@@ -116,9 +116,6 @@ jobs:
 
       - name: Generate l10n
         run: flutter gen-l10n
-
-      - name: Gen freezed model
-        run: flutter pub run build_runner build --delete-conflicting-outputs
 
       - name: Flutter analyze
         run: flutter analyze

@@ -67,7 +67,6 @@ coverage/
 android/app/src/main/res/values/strings.xml
 
 # Dotenv
-.env
 dotenv
 
 # Web FCM

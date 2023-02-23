@@ -65,8 +65,8 @@ flutter:
 
   assets:
     - dotenv
-    - .env
     - assets/
+
   fonts:
     - family: NotoSans
       fonts:
