@@ -2,9 +2,9 @@
 
 ### Issue
 
-1. 만들고자 하는 이슈가 이미 있다면 검색하여 등록해 주세요. 비슷한 문제가 있는 경우 추가 의견을 추가할 수 있습니다.
-1. 이슈에 문제점이나 건의사항을 적어주세요. 문제에 하나 이상의 항목을 포함하지 마십시오.
-1. 가능한 한 자세하고 간결하게 작성해 주십시오.
+1. 만들고자 하는 이슈가 이미 있는지 검색하고 등록해 주세요. 비슷한 문제가 있는 경우 추가 의견을 달아주세요.
+1. 이슈에 문제점이나 건의사항을 적어주세요. 문제에 하나 이상의 항목을 포함하지 말아주세요.
+1. 가능한 자세하고 간결하게 작성해 주세요.
 1. 필요시 스크린샷을 찍어 이미지를 올려주세요.
 
 ### Pull Request
@@ -27,6 +27,10 @@
    - [Vision and mission](https://dooboolab.com/vision_and_mission)
    - [Code of conduct](https://dooboolab.com/code_of_conduct)
    - [Contributing](CONTRIBUTING.md)
+
+## 코드 스타일
+
+[플러터 스타일 가이드](https://github.com/hyochan/style-guide/blob/main/docs/ko/FLUTTER.md)를 준수해주세요.
 
 ## 프로젝트 설정
 
