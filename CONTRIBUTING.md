@@ -117,10 +117,10 @@ dart pub global run intl_utils:generate
 플러그인을 업그레이드는 아래와 같이 수행합니다. 메인테이너가 아니시면 가급적 안하시는 것이 좋습니다.
 
 ```
-flutter pub upgrade --null-safety
+flutter pub upgrade
 ```
 
-> `pubspec.yaml`의 값을 업데이트하려면 `--null-safety`를 추가하고 `pubspec.lock`만 업데이트하려면 끝에 플래그를 사용하지 마세요.
+> 플러터 버전 3.7이하 버전에서는 `pubspec.yaml`의 값을 업데이트하려면 `--null-safety`를 추가하여야 했지만 3.8부터는 없어졌습니다.
 
 #### 2. Firestore security rules
 현재 `firestore.rules` 파일에 보안 규칙이 작성되어 있습니다. 데이터베이스를 추가로 설계하면 반드시 [firebase security rules](https://firebase.google.com/docs/firestore/security/get-started)를 작성해야 합니다.
