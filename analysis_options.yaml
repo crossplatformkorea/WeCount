@@ -1,0 +1,42 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    - always_declare_return_types
+    - always_require_non_null_named_parameters
+    - avoid_types_on_closure_parameters
+    - avoid_annotating_with_dynamic
+    - avoid_escaping_inner_quotes
+    - avoid_function_literals_in_foreach_calls
+    - avoid_private_typedef_functions
+    - combinators_ordering
+    - curly_braces_in_flow_control_structures
+    - lowercase_with_underscores
+    - omit_local_variable_types
+    - annotate_overrides
+    - sort_constructors_first
+    - unawaited_futures
+    - directives_ordering
+    - unnecessary_final
+    - unnecessary_parenthesis
+    - conditional_uri_does_not_exist
+    - prefer_single_quotes
+    - await_only_futures
+    - prefer_relative_imports
+    - avoid_empty_else
+    - comment_references
+    - prefer_void_to_null
+    - use_key_in_widget_constructors
+
+analyzer:
+  strong-mode:
+    # implicit-casts: false
+    # implicit-dynamic: false
+  exclude:
+    - lib/**.freezed.dart
+    - lib/**.g.dart
+    - lib/generated
+    - lib/firebase_options.dart
+  errors:
+    invalid_annotation_target: ignore
+    todo: ignore
