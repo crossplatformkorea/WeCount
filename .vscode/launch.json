@@ -10,6 +10,12 @@
       "type": "dart"
     },
     {
+      "name": "WeCount (web)",
+      "request": "launch",
+      "type": "dart",
+      "args": ["-d", "chrome", "--web-port", "8080"]
+    },
+    {
       "name": "WeCount (profile mode)",
       "request": "launch",
       "type": "dart",
