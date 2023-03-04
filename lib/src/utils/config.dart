@@ -9,11 +9,14 @@ class Config {
   Config._internal();
   static final Config _singleton = Config._internal();
 
-  String get environment => env('GEO_API_KEY');
+  String get environment => env('ENV');
+  String get geoApiKey => env('GEO_API_KEY');
   String get useEmulator => env('PLACE_API_KEY');
   String get emulatorIpAddress => env('EMULATOR_IP_ADDRESS');
   String get webPushToken => env('WEB_PUSH_TOKEN');
   String get googleWebClientId => env('GOOGLE_WEB_CLIENT_ID');
+  String get paypalClientId => env('PAYPAL_CLIENT_ID');
+  String get paypalSecret => env('PAYPAL_SECRET');
 }
 
 String env(String key) {

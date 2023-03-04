@@ -48,11 +48,14 @@ cp .env.sample dotenv
 
 | Name                   | Description                | required?    |
 |------------------------|----------------------------|--------------|
+| ENV                    | Environment                | no           |
 | GEO_API_KEY            | Google map api key         | no           |
 | PLACE_API_KEY          | Google place api key       | no           |
 | EMULATOR_IP_ADDRESS    | firebase emulator ip addr  | no           |
 | WEB_PUSH_TOKEN         | firebase web push token    | no           |
 | GOOGLE_WEB_CLIENT_ID   | google web client id       | no           |
+| PAYPAL_CLIENT_ID       | paypal client id           | no           |
+| PAYPAL_SECRET          | paypal secret              | no           |
 
 > 참고: 현재 위 변수들은 모두 필수가 아니므로 로컬에서 `dotenv` 파일만 생성하면 빌드가 가능합니다.
 

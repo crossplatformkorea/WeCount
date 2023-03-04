@@ -45,6 +45,9 @@ dependencies:
   firebase_dynamic_links: ^5.0.15
   share_plus: ^6.3.1
   flutter_linkify: ^5.0.2
+  shared_preferences: ^2.0.18
+  http_auth: ^1.0.1
+  http: ^0.13.5
 
 dev_dependencies:
   flutter_test:
